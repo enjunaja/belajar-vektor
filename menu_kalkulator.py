@@ -1,7 +1,7 @@
-import streamlit as st
-import numpy as np
-
 def kalkulator_menu():
+  import streamlit as st
+  import numpy as np
+
   st.header("Kalkulator Perkalian Vektor")
   def hitung():
    

@@ -15,7 +15,8 @@ elif menu == "Tentang":
     st.header("Tentang Kami")
     st.write("Kami adalah perusahaan yang fantastis!")
     
-elif menu == "Kalkulator"
+elif menu == "Kalkulator":
+    
     def main():
     st.title('Kalkulator Perkalian Vektor')
 

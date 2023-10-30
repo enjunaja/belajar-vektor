@@ -4,6 +4,7 @@ import streamlit as st
 from menu_beranda import beranda_menu
 from menu_tentang import tentang_menu
 from menu_kontak import kontak_menu
+from menu_kalkulator import kalkulator_menu
 
 # Judul aplikasi
 st.title("Belajar Ruang Vektor")

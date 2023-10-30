@@ -3,8 +3,7 @@ import numpy as np
 
 def kalkulator_menu():
   st.header("Kalkulator Perkalian Vektor")
-  
-    def hitung():
+  def hitung():
    
       # Input vektor pertama
       st.header('Vektor Pertama')
@@ -27,4 +26,4 @@ def kalkulator_menu():
       st.write(f'Vektor Kedua: {vector2}')
       st.write(f'Hasil Perkalian: {result}')
 
-   hitung()
+  hitung()

@@ -28,5 +28,4 @@ def kalkulator_menu():
     st.write(f'Vektor Kedua: {vector2}')
     st.write(f'Hasil Perkalian: {result}')
 
-  if __name__ == '__main__':
-    main()
+  main()

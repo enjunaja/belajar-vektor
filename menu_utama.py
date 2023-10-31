@@ -10,7 +10,7 @@ from menu_kalkulator import kalkulator_menu
 st.markdown("<h3 style='text-align: center;'> 💻 Mari Belajar Ruang Vektor!</h3>", unsafe_allow_html=True)
 
 # Pilihan menu dalam sidebar
-menu = st.radio("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
+menu = st.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
 
 # Tampilkan konten sesuai dengan pilihan menu
 if menu == "Beranda":

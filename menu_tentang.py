@@ -4,7 +4,7 @@ import streamlit as st
 
 def tentang_menu():
     st.write(" ")
-    st.markdown("<h4 style='text-align: center;'>Tentang Kami</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: left;'>Tentang Kami</h4>", unsafe_allow_html=True)
     st.write(" ")
     st.write("Kami adalah tim pengampu Mata Kuliah Aljabar Linier dan Matriks!")
     st.write("👩‍🏫 Konten dan Programmer: Enjun Junaeti")

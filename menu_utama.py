@@ -7,7 +7,7 @@ from menu_kontak import kontak_menu
 from menu_kalkulator import kalkulator_menu
 
 # Judul aplikasi
-st.title("Mari Belajar Ruang Vektor!")
+st.title(" 💻 Mari Belajar Ruang Vektor!")
 
 # Pilihan menu dalam sidebar
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])

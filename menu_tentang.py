@@ -4,4 +4,8 @@ import streamlit as st
 
 def tentang_menu():
     st.header("Tentang Kami")
-    st.write("Kami adalah perusahaan yang fantastis!")
+    st.write("Kami adalah tim pengampu Mata Kuliah Aljabar Linier dan Matriks!")
+    st.write("Konten dan Programmer 👩‍🏫: Enjun Junaeti")
+    st.write("Supervisor 👨‍⚖️: Prof. H. Yaya Sukjaya Kusumah, M.Sc., Ph. D.")
+    st.write("Program Studi Pendidikan Ilmu Komputer")
+    st.write("FPMIPA UPI")

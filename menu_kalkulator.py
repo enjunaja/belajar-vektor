@@ -2,6 +2,7 @@ def kalkulator_menu():
   import streamlit as st
   import numpy as np
 
+  st.write(" ")
   st.markdown("<h4 style='text-align: leftr;'>Perkalian Vektor</h4>", unsafe_allow_html=True)
   def hitung():
    
@@ -12,6 +13,7 @@ def kalkulator_menu():
       # Input vektor kedua
       st.markdown("<h5 style='text-align: leftr;'>Vektor Kedua</h5>", unsafe_allow_html=True)
       vector2 = st.text_input('Masukkan vektor kedua (pisahkan angka dengan spasi):')
+      st.write(" ")
 
       # Konversi input ke dalam bentuk list
       vector1 = [float(x) for x in vector1.split()]
@@ -21,7 +23,7 @@ def kalkulator_menu():
       result = np.dot(vector1, vector2)
 
       # Tampilkan hasil
-      st.header('Hasil Perkalian Vektor')
+      st.markdown("<h5 style='text-align: leftr;'>Hasil Perkalian Vektor</h5>", unsafe_allow_html=True)
       st.write(f'Vektor Pertama: {vector1}')
       st.write(f'Vektor Kedua: {vector2}')
       st.write(f'Hasil Perkalian: {result}')

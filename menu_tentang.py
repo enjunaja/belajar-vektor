@@ -3,6 +3,7 @@
 import streamlit as st
 
 def tentang_menu():
+    st.write(" ")
     st.subheader("Tentang Kami")
     st.write(" ")
     st.write("Kami adalah tim pengampu Mata Kuliah Aljabar Linier dan Matriks!")

@@ -10,5 +10,5 @@ def tentang_menu():
     st.write("👩‍🏫 Konten dan Programmer: Enjun Junaeti")
     st.write("👨‍⚖️ Supervisor: Prof. H. Yaya Sukjaya Kusumah, M.Sc., Ph. D.")
     st.write(" ")
-    st.write("Program Studi Pendidikan Ilmu Komputer")
-    st.write("FPMIPA UPI 🇮🇩")
+    st.write("**Program Studi Pendidikan Ilmu Komputer**")
+    st.write("**FPMIPA UPI**")

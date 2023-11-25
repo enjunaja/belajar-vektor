@@ -15,7 +15,7 @@ def coba_menu():
         """
         <style>
         body {
-            background-color: #f0f0f0; /* Ubah ke kode warna yang Anda inginkan */
+            background-color: #ADD8E6; /* Ubah ke kode warna yang Anda inginkan */
         }
         </style>
         """,

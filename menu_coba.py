@@ -1,8 +1,4 @@
-pip install python-pptx
-
 import streamlit as st
-from pptx import Presentation
-from io import BytesIO
 
 def coba_menu():
     # Judul aplikasi
@@ -11,21 +7,8 @@ def coba_menu():
     st.write("")
     st.markdown("<h4 style='text-align: left;'>Silahkan tulis kode programnya</h4>", unsafe_allow_html=True)
     
+    # Menampilkan tautan ke file PowerPoint
+    st.markdown("[Download PowerPoint Presentation](https://github.com/enjunaja/belajar-vektor/blob/main/Organisasi%20Objek%20Matematika%20Ruang%20Vektor.pptx)")
 
 
-    # Mendownload file PowerPoint dari URL (ganti URL dengan yang sesuai)
-    url_pptx = 'https://github.com/enjunaja/belajar-vektor/blob/main/Organisasi%20Objek%20Matematika%20Ruang%20Vektor.pptx'
-    response = requests.get(url_pptx)
-    pptx_data = BytesIO(response.content)
-
-    # Memuat presentasi dari file PowerPoint
-    presentation = Presentation(pptx_data)
-
-    # Menampilkan slide presentasi di Streamlit
-    for slide in presentation.slides:
-        for shape in slide.shapes:
-            if hasattr(shape, "text"):
-                st.write(shape.text)
-
-
-    
+   

@@ -39,7 +39,6 @@ def kontak_menu():
     show_next_paragraph = st.button("Berikutnya")
     if show_next_paragraph:
         st.write("Terdapat tiga orang pemain, yang memukul bola sehingga menghasilkan perpindahan posisi bola sebagaimana terlihat pada gambar-gambar berikut.")
-        
         st.markdown("<h5 style='text-align: left;'>Pemain 1</h4>", unsafe_allow_html=True)
         url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar2.png?raw=true"
         st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')

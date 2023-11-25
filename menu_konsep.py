@@ -10,7 +10,7 @@ def konsep_menu():
 
   tab1, tab2, tab3, tab4, tab5 = st.tabs(["Lingkup Materi", "Tupel", "Vektor", "Operasi Vektor", "Vektor Fitur"])
   with tab1: 
-        st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: left;'>Lingkup Materi</h5>", unsafe_allow_html=True)
     
   with tab2: 
         st.markdown("<h5 style='text-align: left;'>Tupel</h5>", unsafe_allow_html=True)

@@ -56,7 +56,7 @@ def kontak_menu():
         with tab1:
            st.header("Pemain 1")
            url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar2.png?raw=true"
-            st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')
+           st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')
         
         with tab2:
            st.header("Pemain 2")

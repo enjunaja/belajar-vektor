@@ -10,7 +10,7 @@ from menu_kalkulator import kalkulator_menu
 st.title("💻 Mari Belajar Ruang Vektor!")
 
 # Pilihan menu dalam sidebar
-menu = st.sidebar.sellectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
+menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
 
 # Tampilkan konten sesuai dengan pilihan menu
 if menu == "Beranda":

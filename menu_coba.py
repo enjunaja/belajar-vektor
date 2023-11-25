@@ -1,3 +1,5 @@
+pip install python-pptx
+
 import streamlit as st
 from pptx import Presentation
 from io import BytesIO

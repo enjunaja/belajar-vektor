@@ -11,5 +11,5 @@ def kontak_menu():
     st.write("2. Tuliskan hasil diskusi pada tempat yang telah disediakan.")
     st.write(" ")
     st.markdown("<h6 style='text-align: center;'>========================================================================</h4>", unsafe_allow_html=True)
-    st.markdown("<h4 style='text-align: center;'>Merepresentasikan posisi dan perpindahan sebagai vektor dalam bentuk geometri bidang dan ruang</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='text-align: center;'>Merepresentasikan Posisi dan Perpindahan sebagai Vektor</h4>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: center;'>========================================================================</h4>", unsafe_allow_html=True)

@@ -33,7 +33,7 @@ def kontak_menu():
         return img_with_background
 
     # Path gambar dari sistem lokal
-    image_path = 'https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true'
+    image_path = 'https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png'
 
     # Memberikan kotak dengan warna background yang berbeda
     image_with_bg = add_background_color(image_path, 'yellow')

@@ -3,8 +3,8 @@
 import streamlit as st
 from menu_beranda import beranda_menu
 from menu_tentang import tentang_menu
-from menu_kontak import kontak_menu
 from menu_kalkulator import kalkulator_menu
+from menu_kontak import kontak_menu
 
 # Pilihan menu dalam sidebar
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Lembar Kerja"])

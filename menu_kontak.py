@@ -41,7 +41,7 @@ def kontak_menu():
         st.write("Konten yang ditampilkan ketika checkbox tidak dicentang.")
     
     jawab2 = st.text_input('Jawab:')
-    if jawab2 is not None:
+    if jawab2 != '':
         if jawab2 == "(7,5)" or jawab2 == "(7, 5)" or jawab2 == "[7,5]" or jawab2 == "[7, 5]":
             st.write("Kamu benar!")
         else:

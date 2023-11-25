@@ -25,13 +25,17 @@ def kontak_menu():
     st.write("Perhatikan gambar berikut!")
     url_github = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
     st.image(url_github, caption='Posisi objek pada Koordinat Cartesius (Takahashi, S. & Inoue, I.,  2008)')
-    st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf terhadap titik awal bola?")
+    st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf relatif terhadap titik awal bola?")
     
-    jawab2 = st.text_input('Jawab:')
-    if jawab2 != '':
-        if jawab2 == "(7,5)" or jawab2 == "(7, 5)" or jawab2 == "[7,5]" or jawab2 == "[7, 5]":
+    jawab1 = st.text_input('Jawab:')
+    if jawab1 != '':
+        if jawab1 == "(7,4)" or jawab1 == "(7, 4)" or jawab1 == "[7,4]" or jawab1 == "[7, 4]":
             st.write("Kamu benar!")
         else:
-            st.write("Jawaban kamu masih salah, seharusnya posisi lubang bola terhadap titik (0, 0) adalah (7,5).")
+            st.write("Jawaban kamu masih salah, seharusnya posisi lubang bola terhadap titik (0, 0) adalah (7,4).")
     else: 
         st.write("Tuliskan jawabanmu pada kotak")
+
+    show_next_paragraph = st.button("Berikutnya")
+    if show_next_paragraph:
+        st.write("Ini adalah paragraf selanjutnya setelah tombol 'Berikutnya' diklik.")

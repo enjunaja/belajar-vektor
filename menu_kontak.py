@@ -23,7 +23,7 @@ def kontak_menu():
     
     st.markdown("<h5 style='text-align: left;'>Tahapan Pembelajaran</h4>", unsafe_allow_html=True)
     st.write("Perhatikan gambar berikut!")
-    url_github = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
+    url_github = Image.open('https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true')
     st.image(url_github, caption='Gambar dari Buku')
     st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf terhadap titik awal bola?")
     jawab1 = st.text_input('Jawab:')

@@ -6,9 +6,6 @@ from menu_tentang import tentang_menu
 from menu_kontak import kontak_menu
 from menu_kalkulator import kalkulator_menu
 
-# Judul aplikasi
-st.markdown("<h3 style='text-align: center;'> 💻 Mari Belajar Ruang Vektor!</h3>", unsafe_allow_html=True)
-
 # Pilihan menu dalam sidebar
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
 

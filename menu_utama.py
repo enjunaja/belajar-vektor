@@ -11,6 +11,7 @@ st.markdown("<h3 style='text-align: center;'> 💻 Mari Belajar Ruang Vektor!</h
 
 # Pilihan menu dalam sidebar
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
+
 # Tampilkan konten sesuai dengan pilihan menu
 if menu == "Beranda":
     beranda_menu()

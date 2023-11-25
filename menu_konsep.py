@@ -29,3 +29,15 @@ def konsep_menu():
       st.write(f'Hasil Perkalian: {result}')
 
   hitung()
+
+  # Input pengguna
+  nama = st.text_input("Masukkan Nama")
+  umur = st.number_input("Masukkan Umur")
+  pekerjaan = st.selectbox("Pilih Pekerjaan", ["Mahasiswa", "Pegawai", "Wiraswasta"])
+
+  # Menyimpan input pengguna dalam list
+  data_user = [[nama, umur, pekerjaan]]
+
+  # Menampilkan input pengguna dalam bentuk tabel
+  st.table(data_user)
+

@@ -3,41 +3,23 @@ def konsep_menu():
   import numpy as np
 
   st.write(" ")
-  st.markdown("<h4 style='text-align: leftr;'>Perkalian Vektor</h4>", unsafe_allow_html=True)
-  def hitung():
-   
-      # Input vektor pertama
-      st.markdown("<h5 style='text-align: leftr;'>Vektor Pertama</h5>", unsafe_allow_html=True)
-      vector1 = st.text_input('Masukkan vektor pertama (pisahkan angka dengan spasi):')
+  st.markdown("<h3 style='text-align: center;'> Ruang Vektor </h3>", unsafe_allow_html=True)
+  st.markdown("<h6 style='text-align: center;'> 💻 Media Pembelajaran Ruang Vektor Berbasis DNR!</h3>", unsafe_allow_html=True)
+  st.write("")
+  st.markdown("<h5 style='text-align: leftr;'>Materi</h5>", unsafe_allow_html=True)
 
-      # Input vektor kedua
-      st.markdown("<h5 style='text-align: leftr;'>Vektor Kedua</h5>", unsafe_allow_html=True)
-      vector2 = st.text_input('Masukkan vektor kedua (pisahkan angka dengan spasi):')
-      st.write(" ")
+  tab1, tab2, tab3, tab4, tab5 = st.tabs(["Lingkup Materi", "Tupel", "Vektor", "Operasi Vektor", "Vektor Fitur"])
+  with tab1: 
+        st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h5>", unsafe_allow_html=True)
+    
+  with tab2: 
+        st.markdown("<h5 style='text-align: left;'>Tupel</h5>", unsafe_allow_html=True)
 
-      # Konversi input ke dalam bentuk list
-      vector1 = [float(x) for x in vector1.split()]
-      vector2 = [float(x) for x in vector2.split()]
+  with tab3: 
+        st.markdown("<h5 style='text-align: left;'>Vektor</h5>", unsafe_allow_html=True)
 
-      # Hitung perkalian vektor
-      result = np.dot(vector1, vector2)
+  with tab4: 
+        st.markdown("<h5 style='text-align: left;'>Operasi Vektor</h5>", unsafe_allow_html=True)
 
-      # Tampilkan hasil
-      st.markdown("<h5 style='text-align: leftr;'>Hasil Perkalian Vektor</h5>", unsafe_allow_html=True)
-      st.write(f'Vektor Pertama: {vector1}')
-      st.write(f'Vektor Kedua: {vector2}')
-      st.write(f'Hasil Perkalian: {result}')
-
-  hitung()
-
-  # Input pengguna
-  nama = st.text_input("Masukkan Nama")
-  umur = st.number_input("Masukkan Umur")
-  pekerjaan = st.selectbox("Pilih Pekerjaan", ["Mahasiswa", "Pegawai", "Wiraswasta"])
-
-  # Menyimpan input pengguna dalam list
-  data_user = [[nama, umur, pekerjaan]]
-
-  # Menampilkan input pengguna dalam bentuk tabel
-  st.table(data_user)
-
+  with tab5: 
+        st.markdown("<h5 style='text-align: left;'>Vektor Fitur</h5>", unsafe_allow_html=True)

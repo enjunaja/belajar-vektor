@@ -1,4 +1,4 @@
-def kalkulator_menu():
+def konsep_menu():
   import streamlit as st
   import numpy as np
 

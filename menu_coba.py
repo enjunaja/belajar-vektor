@@ -8,7 +8,7 @@ def coba_menu():
     st.markdown("<h4 style='text-align: left;'>Silahkan tulis kode programnya</h4>", unsafe_allow_html=True)
     
     # Menampilkan tautan ke file PowerPoint
-    st.markdown("[Download PowerPoint Presentation](https://github.com/enjunaja/belajar-vektor/blob/main/Organisasi%20Objek%20Matematika%20Ruang%20Vektor.pptx)")
+    st.markdown("[Download PowerPoint Presentation](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fenjunaja%2Fbelajar-vektor%2Fmain%2FOrganisasi%2520Objek%2520Matematika%2520Ruang%2520Vektor.pptx&wdOrigin=BROWSELINK)")
 
 
    

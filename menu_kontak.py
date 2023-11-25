@@ -11,12 +11,12 @@ def kontak_menu():
     tab1, tab2, tab3 = st.tabs(["Tujuan", "Kegiatan1", "Kegiatan2"])
     with tab1: 
         st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h4>", unsafe_allow_html=True)
-        st.write("a. Mengidentifikasi titik awal vektor dan titik ujung vektor;")
-        st.write("b. Mengidentifikasi besar/panjang dan arah vektor;")
-        st.write("c. Memformulasikan penjumlahan dan perkalian pada vektor;")
-        st.write("d. Menentukan vektor nol (identitas penjumlahan);")
-        st.write("e. Menentukan skalar satuan (identitas perkalian);")
-        st.write("f. Mengevaluasi kesamaan dua vektor.")
+        st.write("Setelah melakukan Kegiatan Belajar 1 dan Kegiatan Belajar 2 diharapakan mahasiswa mampu:")
+        st.write("a. Merepresentasikan data dengan menggunakan vektor;")
+        st.write("b. Memformulasikan penjumlahan dan perkalian pada vektor;")
+        st.write("c. Menentukan vektor nol (identitas penjumlahan);")
+        st.write("d. Menentukan skalar satuan (identitas perkalian);")
+        st.write("e. Mengevaluasi kesamaan dua vektor.")
         st.write(" ")
 
     with tab2:
@@ -24,7 +24,7 @@ def kontak_menu():
         st.markdown("<h4 style='text-align: center;'>Merepresentasikan Posisi dan Perpindahan sebagai Vektor</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         
-        st.markdown("<h5 style='text-align: left;'>Tahapan Pembelajaran</h4>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: left;'>Kegiatan Pembelajaran</h4>", unsafe_allow_html=True)
         st.write("Perhatikan gambar berikut!")
         url_github1 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
         st.image(url_github1, caption='Posisi bola pada Koordinat Cartesius (Takahashi, S. & Inoue, I.,  2008)')
@@ -55,11 +55,15 @@ def kontak_menu():
                st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
             
             with pemain3:
-               st.header("Pemain 3")
-               url_github4 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar4.png?raw=true"
-               st.image(url_github4, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')
+                st.header("Pemain 3")
+                url_github4 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar4.png?raw=true"
+                st.image(url_github4, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')
+                
             
     with tab3:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Merepresentasikan Warna sebagai Vektor</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
+
+        st.markdown("<h5 style='text-align: left;'>Kegiatan Pembelajaran</h4>", unsafe_allow_html=True)
+        

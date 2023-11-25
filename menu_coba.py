@@ -10,5 +10,21 @@ def coba_menu():
     # Menampilkan tautan ke file PowerPoint
     st.markdown("[Download PowerPoint Presentation](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fenjunaja%2Fbelajar-vektor%2Fmain%2FOrganisasi%2520Objek%2520Matematika%2520Ruang%2520Vektor.pptx&wdOrigin=BROWSELINK)")
 
+    import streamlit as st
+
+    # Mengubah warna latar belakang dengan st.markdown()
+    st.markdown(
+        """
+        <style>
+        body {
+            background-color: #f0f0f0; /* Ubah ke kode warna yang Anda inginkan */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Konten aplikasi Streamlit di bawah
+    st.write("Ini adalah konten Streamlit dengan latar belakang yang berbeda.")
 
    

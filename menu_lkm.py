@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-def kontak_menu():
+def lkm_menu():
     st.markdown("<h3 style='text-align: center;'> Lembar Kerja Mahasiswa </h3>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: center;'> 💻 Vektor sebagai Representasi Data</h3>", unsafe_allow_html=True)
     st.write("")

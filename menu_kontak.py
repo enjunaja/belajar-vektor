@@ -43,20 +43,20 @@ def kontak_menu():
         if show_next_paragraph:
             st.write("Terdapat tiga orang pemain, yang memukul bola sehingga menghasilkan perpindahan posisi bola sebagaimana terlihat pada gambar-gambar berikut.")
              
-            tab1, tab2, tab3 = st.tabs(["Pemain1", "Pemain2", "Pemain3"])
-            with tab1:
+            pemain1, pemain2, pemain3 = st.tabs(["Pemain1", "Pemain2", "Pemain3"])
+            with pemain1:
                st.header("Pemain 1")
                url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar2.png?raw=true"
                st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')
             
-            with tab2:
+            with pemain2:
                st.header("Pemain 2")
                url_github3 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar3.png?raw=true"
                st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
             
-            with tab3:
+            with pemain3:
                st.header("Pemain 3")
                url_github4 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar4.png?raw=true"
                st.image(url_github4, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')
-        
+            
          with tab3:

@@ -25,3 +25,4 @@ def kontak_menu():
     url_github = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
     st.image(url_github, caption='Gambar dari Buku', use_column_width=True)
     st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf terhadap titik awal bola?")
+    jawab1 = st.text_input('Jawab:')

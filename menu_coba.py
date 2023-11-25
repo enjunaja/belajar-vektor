@@ -10,8 +10,6 @@ def coba_menu():
     # Menampilkan tautan ke file PowerPoint
     st.markdown("[Download PowerPoint Presentation](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fenjunaja%2Fbelajar-vektor%2Fmain%2FOrganisasi%2520Objek%2520Matematika%2520Ruang%2520Vektor.pptx&wdOrigin=BROWSELINK)")
 
-    import streamlit as st
-
     # Mengubah warna latar belakang dengan st.markdown()
     st.markdown(
         """

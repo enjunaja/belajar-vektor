@@ -59,4 +59,7 @@ def kontak_menu():
                url_github4 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar4.png?raw=true"
                st.image(url_github4, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')
             
-         with tab3:
+    with tab3:
+        st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center;'>Merepresentasikan Warna sebagai Vektor</h4>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)

@@ -9,7 +9,8 @@ def beranda_menu():
     st.markdown(
         """
         Ini adalah halaman beranda aplikasi kami.
-        👈 Pilih Menu dari Sidebar untuk memilih kegiatan yang akan dilakukan.
+        
+        👈 Pilih Menu Belajar dari Sidebar untuk memulai kegiatan pembelajaran.
 
         """
     )

@@ -24,13 +24,13 @@ def kontak_menu():
     st.markdown("<h5 style='text-align: left;'>Tahapan Pembelajaran</h4>", unsafe_allow_html=True)
     st.write("Perhatikan gambar berikut!")
     url_github = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
-    st.image(url_github, caption='Gambar dari GitHub', use_column_width=True)
+    st.image(url_github, caption='Gambar dari Buku', use_column_width=True)
 
    # Fungsi untuk memberikan kotak dengan warna background yang berbeda
     def add_background_color(image_path, color):
         img = Image.open(image_path)
         img_with_background = ImageOps.expand(img, border=20, fill=color)
-    return img_with_background
+        return img_with_background
 
     # Path gambar dari sistem lokal
     image_path = 'https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true'

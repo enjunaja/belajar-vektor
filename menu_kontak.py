@@ -1,9 +1,6 @@
 # menu_kontak.py
 
 import streamlit as st
-import requests
-from PIL import Image, ImageOps
-from io import BytesIO
 
 def kontak_menu():
     st.markdown("<h3 style='text-align: center;'> Lembar Kerja Mahasiswa </h3>", unsafe_allow_html=True)
@@ -28,20 +25,4 @@ def kontak_menu():
     url_github = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
     st.image(url_github, caption='Gambar dari Buku', use_column_width=True)
 
-   # Fungsi untuk memberikan kotak dengan warna background yang berbeda
-    def add_background_color_to_github_image(image_url, color):
-        response = requests.get(image_url)
-        img = Image.open(BytesIO(response.content))
-        img_with_background = ImageOps.expand(img, border=20, fill=color)
-        return img_with_background
-
-    # Path gambar dari sistem lokal
-    image_path = "https://raw.githubusercontent.com/enjunaja/belajar-vektor/blob/main/gambar1.png"
-
-    # Memberikan kotak dengan warna background yang berbeda
-    image_with_bg = add_background_color_to_github_image(image_path, 'yellow')
-
-    # Menampilkan gambar dengan kotak berwarna background
-    st.image(image_with_bg, caption='Gambar dengan Background Berwarna', use_column_width=True)
-
-    st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf terhadap titik awal bola?")
+   st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf terhadap titik awal bola?")

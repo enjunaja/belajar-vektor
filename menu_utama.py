@@ -7,7 +7,7 @@ from menu_kontak import kontak_menu
 from menu_kalkulator import kalkulator_menu
 
 # Pilihan menu dalam sidebar
-menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Kontak"])
+menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Belajar", "Lembar Kerja"])
 
 # Tampilkan konten sesuai dengan pilihan menu
 if menu == "Beranda":
@@ -19,5 +19,5 @@ elif menu == "Tentang":
 elif menu == "Belajar":
     kalkulator_menu()
 
-elif menu == "Kontak":
+elif menu == "Lembar Kerja":
     kontak_menu()

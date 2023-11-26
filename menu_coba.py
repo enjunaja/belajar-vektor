@@ -1,5 +1,20 @@
 import streamlit as st
 
+# Mengubah warna latar belakang dengan st.markdown()
+    st.markdown(
+        """
+        <style>
+        body {
+            background-color: #ADD8E6; /* Ubah ke kode warna yang Anda inginkan */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Konten aplikasi Streamlit di bawah
+    st.write("Ini adalah konten Streamlit dengan latar belakang yang berbeda.")
+
 def coba_menu():
     # Judul aplikasi
     st.markdown("<h3 style='text-align: center;'> Ini menu untuk coba program </h3>", unsafe_allow_html=True)

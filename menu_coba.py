@@ -9,14 +9,12 @@ def coba_menu():
     
     # Menampilkan tautan ke file PowerPoint
     st.markdown("[Download PowerPoint Presentation](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fenjunaja%2Fbelajar-vektor%2Fmain%2FOrganisasi%2520Objek%2520Matematika%2520Ruang%2520Vektor.pptx&wdOrigin=BROWSELINK)")
-
-    import streamlit as st
-
+    
     def combine_rgb(red, green, blue):
         # Kombinasi nilai RGB untuk membuat warna baru
         combined_color = (red, green, blue)
         return combined_color
-
+    
     def display_color_box(color):
         # Menampilkan kotak dengan warna yang dihasilkan
         st.write(f"Warna RGB yang dihasilkan: {color}")
@@ -26,20 +24,20 @@ def coba_menu():
             """,
             unsafe_allow_html=True
         )
-
+    
     def main():
         st.title('Kombinasi Warna RGB')
-    
+        
         # Input nilai-nilai RGB dari pengguna
         red = st.slider('Merah (0-255)', 0, 255, 128)
         green = st.slider('Hijau (0-255)', 0, 255, 128)
         blue = st.slider('Biru (0-255)', 0, 255, 128)
-
+        
         # Tombol untuk melakukan kombinasi nilai RGB
         if st.button('Gabungkan Warna'):
             combined_color = combine_rgb(red, green, blue)
             display_color_box(combined_color)
-
+    
     main()
 
     

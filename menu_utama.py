@@ -13,7 +13,7 @@ menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Konsep Materi", "Lem
 
 # Tampilkan konten sesuai dengan pilihan menu
 if menu == "Beranda":
-    beranda_menu()
+    beranda_menu
 
 elif menu == "Tentang":
     tentang_menu()

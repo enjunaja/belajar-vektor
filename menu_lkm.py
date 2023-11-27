@@ -8,7 +8,7 @@ def lkm_menu():
     st.markdown("<h6 style='text-align: center;'> 💻 Vektor sebagai Representasi Data</h3>", unsafe_allow_html=True)
     st.write("")
 
-    tab1, tab2, tab3 = st.tabs(["Tujuan", "Kegiatan1", "Kegiatan2"])
+    tab1, tab2, tab3 = st.tabs(["Tujuan", "Kegiatan 1", "Kegiatan 2"])
     with tab1: 
         st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h4>", unsafe_allow_html=True)
         st.write("Setelah melakukan Kegiatan Belajar 1 dan Kegiatan Belajar 2 diharapakan mahasiswa mampu:")
@@ -43,7 +43,7 @@ def lkm_menu():
         if show_next_paragraph:
             st.write("Terdapat tiga orang pemain, yang memukul bola sehingga menghasilkan perpindahan posisi bola sebagaimana terlihat pada gambar-gambar berikut.")
              
-            pemain1, pemain2, pemain3 = st.tabs(["Pemain1", "Pemain2", "Pemain3"])
+            pemain1, pemain2, pemain3 = st.tabs(["Pemain 1", "Pemain 2", "Pemain 3"])
             with pemain1:
                st.header("Pemain 1")
                url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar2.png?raw=true"

@@ -1,6 +1,23 @@
 import streamlit as st
 
 def coba_menu():
+    import streamlit as st
+
+    # Menggunakan HTML dan CSS kustom untuk mengatur gambar latar belakang
+    page_bg_img = '''
+    <style>
+    body {
+        background-image: url("https://github.com/enjunaja/belajar-vektor/blob/main/vecteezy_abstract-background-line-wave-element-sound-spectrum_29569439.jpg");
+        background-size: cover;
+    }
+    </style>
+    '''
+    # Menampilkan HTML
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+    # Konten aplikasi Streamlit
+    st.title("Aplikasi Streamlit dengan Gambar Latar Belakang")
+    st.write("Ini adalah contoh aplikasi Streamlit dengan gambar latar belakang.")
+    
     # Judul aplikasi
     st.markdown("<h3 style='text-align: center;'> Ini menu untuk coba program </h3>", unsafe_allow_html=True)
     st.markdown("<h6 style='text-align: center;'> 💻 Media Pembelajaran Ruang Vektor Berbasis DNR!</h3>", unsafe_allow_html=True)

@@ -6,7 +6,7 @@ def coba_menu():
     # Menggunakan HTML dan CSS kustom untuk mengatur gambar latar belakang
     page_bg_img = '''
     <style>
-    body {
+    stApp {
         background-image: url("https://github.com/enjunaja/belajar-vektor/blob/main/vecteezy_abstract-background-line-wave-element-sound-spectrum_29569439.jpg");
         background-size: cover;
     }

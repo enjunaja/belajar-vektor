@@ -7,7 +7,7 @@ def coba_menu():
     page_bg_img = '''
     <style>
     .stApp {
-        background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/vecteezy_abstract-background-line-wave-element-sound-spectrum_29569439.jpg");
+        background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/vecteezy_background-vectors-free-download-graphic-art-designs_13375997.jpg");
         background-size: cover;
     }
     </style>

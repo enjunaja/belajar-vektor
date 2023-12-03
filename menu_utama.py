@@ -8,6 +8,18 @@ from menu_lkm import lkm_menu
 from menu_test import test_menu
 from menu_coba import coba_menu
 
+# Menggunakan HTML dan CSS kustom untuk mengatur gambar latar belakang
+page_bg_img = '''
+<style>
+.stApp {
+    background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/vecteezy_background-vectors-free-download-graphic-art-designs_13375997.jpg");
+    background-size: cover;
+}
+</style>
+'''
+# Menampilkan HTML
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 # Pilihan menu dalam sidebar
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Konsep Materi", "Lembar Kerja", "Test", "Coba Program"])
 

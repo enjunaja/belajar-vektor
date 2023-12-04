@@ -1,11 +1,11 @@
 # main_app.py
 
 import streamlit as st
-from menu_beranda import beranda_menu
-from menu_tentang import tentang_menu
-from menu_konsep import konsep_menu
-from menu_lkm import lkm_menu
-from menu_test import test_menu
+from menu.menu_beranda import beranda_menu
+from menu.menu_tentang import tentang_menu
+from menu.menu_konsep import konsep_menu
+from menu.menu_lkm import lkm_menu
+from menu.menu_test import test_menu
 from menu_coba import coba_menu
 
 # Menggunakan HTML dan CSS kustom untuk mengatur gambar latar belakang

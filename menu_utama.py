@@ -14,7 +14,6 @@ page_bg_img = '''
 .stApp {
     background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/background.png");
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 </style>
 '''

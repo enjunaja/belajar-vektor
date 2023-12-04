@@ -12,7 +12,7 @@ from menu_coba import coba_menu
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/vecteezy_background-vectors-free-download-graphic-art-designs_13375997.jpg");
+    background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/background.png");
     background-size: cover;
 }
 </style>

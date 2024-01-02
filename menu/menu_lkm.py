@@ -136,7 +136,7 @@ def lkm_menu():
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (7,4)
         """)
         
-     with tab6:
+    with tab6:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Kesimpulan</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)

@@ -50,6 +50,8 @@ def lkm_menu():
                     st.write("Jawaban kamu masih salah, seharusnya posisi objek tersebut adalah (a,b). Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = a dan pada sumbu-y (garis vertikal) dengan koordinat y = b, dapat kita notasikan dengan menggunakan tuple sebagai (a, b).")
             else:
                 st.write("Tuliskan jawabanmu pada kotak")
+            lanjut = st.button("Lanjutkan ke Kegiatan 2")
+    
         
         #show_next_paragraph = st.button("Berikutnya")
         #if show_next_paragraph:

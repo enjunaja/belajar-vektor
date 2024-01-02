@@ -9,7 +9,7 @@ def lkm_menu():
     st.markdown("<h3 style='text-align: center;'> Lembar Kerja Mahasiswa </h3>", unsafe_allow_html=True)
     st.write("")
 
-    tab1, tab2, tab3 = st.tabs(["Tujuan", "Pengantar", "Kegiatan 1"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Tujuan", "Pengantar", "Kegiatan 1", "Kegiatan 2", "Kegiatan 3"])
     with tab1: 
         st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h4>", unsafe_allow_html=True)
         st.write("Setelah melakukan Kegiatan Belajar diharapkan mahasiswa mampu:")
@@ -70,8 +70,8 @@ def lkm_menu():
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
 
         st.markdown("<h5 style='text-align: left;'>Pemain 2</h4>", unsafe_allow_html=True)
-        url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar3.png?raw=true"
-        st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
+        url_github3 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar3.png?raw=true"
+        st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
 
  with tab5:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
@@ -79,5 +79,5 @@ def lkm_menu():
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
 
         st.markdown("<h5 style='text-align: left;'>Pemain 3</h4>", unsafe_allow_html=True)
-        url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar4.png?raw=true"
-        st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')
+        url_github4 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar4.png?raw=true"
+        st.image(url_github4, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')

@@ -59,33 +59,31 @@ def lkm_menu():
         st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 1</h5>", unsafe_allow_html=True)
         st.write('')
         
-        st.markdown("<h6 style='text-align: left;'>Pukulan ke-1</h6>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: left;'>Pukulan ke-1</h5>", unsafe_allow_html=True)
         st.markdown("""
         - Posisi bola pukulan ke-1: (3,1)
         - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kanan dan 1 ke atas relatif terhadap posisi (0,0)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (3, 1)
         """)
-        st.button('Posisi bola pukulan ke-1: (3,1)')
-        st.write('Posisi bola relatif terhadap posisi terakhirnya')
-        st.button('3 ke kanan dan 1 ke atas relatif terhadap posisi (0,0)')
-        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
-        st.button('Perpindahan bola ke-1: (3,1)')
+        
 
         st.write('')
-        st.markdown("<h6 style='text-align: left;'>Pukulan ke-2</h6>", unsafe_allow_html=True)
-        st.button('Posisi bola pukulan ke-2: (4,3)')
-        st.write('Posisi bola relatif terhadap posisi terakhirnya')
-        st.button('1 ke kanan dan 2 ke atas relatif terhadap posisi (3,1)')
-        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
-        st.button('Perpindahan bola ke-2: (1,2)')
+        st.markdown("<h5 style='text-align: left;'>Pukulan ke-2</h5>", unsafe_allow_html=True)
+        st.markdown("""
+        - Posisi bola pukulan ke-2: (4,3)
+        - Posisi bola relatif terhadap posisi terakhirnya: 1 ke kanan dan 2 ke atas relatif terhadap posisi (3,1)
+        - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (1, 2)
+        """)
+        
 
         st.write('')
-        st.markdown("<h6 style='text-align: left;'>Pukulan ke-3</h6>", unsafe_allow_html=True)
-        st.button('Posisi bola pukulan ke-3: (7,4)')
-        st.write('Posisi bola relatif terhadap posisi terakhirnya')
-        st.button('3 ke kanan dan 1 ke atas relatif terhadap posisi (4,3)')
-        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
-        st.button('Perpindahan bola ke-3: (3,1)')
+        st.markdown("<h5 style='text-align: left;'>Pukulan ke-3</h5>", unsafe_allow_html=True)
+        st.markdown("""
+        - Posisi bola pukulan ke-3: (7,4)
+        - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kanan dan 1 ke atas relatif terhadap posisi (4,3)
+        - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (3, 1)
+        """)
+        
     
     with tab4:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
@@ -99,23 +97,23 @@ def lkm_menu():
         st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
         st.write('')
         st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 2</h5>", unsafe_allow_html=True)
-        
-        st.write('')
-        st.markdown("<h6 style='text-align: left;'>Pukulan ke-1</h6>", unsafe_allow_html=True)
-        st.button('Posisi bola pukulan ke-1: (10,10)')
-        st.write('Posisi bola relatif terhadap posisi terakhirnya')
-        st.button('10 ke kanan dan 10 ke atas relatif terhadap posisi (0,0)')
-        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
-        st.button('Perpindahan bola ke-1: (10,10)')
 
         st.write('')
-        st.markdown("<h6 style='text-align: left;'>Pukulan ke-2</h6>", unsafe_allow_html=True)
-        st.button('Posisi bola pukulan ke-2: (7,4)')
-        st.write('Posisi bola relatif terhadap posisi terakhirnya')
-        st.button('3 ke kiri dan 6 ke bawah relatif terhadap posisi (10,10)')
-        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
-        st.button('Perpindahan bola ke-2: (-3,-6)')
+        st.markdown("<h5 style='text-align: left;'>Pukulan ke-1</h5>", unsafe_allow_html=True)
+        st.markdown("""
+        - Posisi bola pukulan ke-1: (10,10)
+        - Posisi bola relatif terhadap posisi terakhirnya: 10 ke kanan dan 10 ke atas relatif terhadap posisi (0,0)
+        - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (10, 10)
+        """)
         
+        st.write('')
+        st.markdown("<h5 style='text-align: left;'>Pukulan ke-2</h5>", unsafe_allow_html=True)
+        st.markdown("""
+        - Posisi bola pukulan ke-2: (7,4)
+        - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kiri dan 6 ke bawah relatif terhadap posisi (10,10)
+        - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (-3,-6)
+        """)
+             
         
     with tab5:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
@@ -131,10 +129,11 @@ def lkm_menu():
         st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 3</h5>", unsafe_allow_html=True)
         st.write('')
         
-        st.markdown("<h6 style='text-align: left;'>Pukulan ke-1</h6>", unsafe_allow_html=True)
-        st.button('Posisi bola pukulan ke-1: (7,4)')
-        st.write('Posisi bola relatif terhadap posisi terakhirnya')
-        st.button('7 ke kanan dan 4 ke atas relatif terhadap posisi (0,0)')
-        st.write("Perpindahan bola yang dionyatakan dalam bentuk (ke kanan, ke atas)")
-        st.button('Perpindahan bola ke-1: (7,4)')
+        st.markdown("<h5 style='text-align: left;'>Pukulan ke-1</h5>", unsafe_allow_html=True)
+        st.markdown("""
+        - Posisi bola pukulan ke-1: (7,4)
+        - Posisi bola relatif terhadap posisi terakhirnya: 7 ke kanan dan 4 ke atas relatif terhadap posisi (0,0)
+        - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (7,4)
+        """)
+             
         

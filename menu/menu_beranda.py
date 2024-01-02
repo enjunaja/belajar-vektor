@@ -5,7 +5,7 @@ import streamlit as st
 def beranda_menu():
     # Judul aplikasi
     st.markdown("<h3 style='text-align: center;'> 💻 Media Pembelajaran Ruang Vektor</h3>", unsafe_allow_html=True)
-    st.image("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/Webinar-pana.png",width=600, align='center')
+    st.image("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/Webinar-pana.png",width=600)
 
     st.markdown(
         """

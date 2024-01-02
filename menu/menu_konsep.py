@@ -15,6 +15,11 @@ def konsep_menu():
 
   with tab1:
      st.markdown("<h5 style='text-align: left;'>Tonton video berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
+    # Path ke file video lokal sebagai contoh
+    video_path = "https://drive.google.com/file/d/1fMdIbRU-sw2Vc5JVM8mdZ-M928bUXME2/view?usp=drive_link"
+
+    # Menampilkan video dari file lokal
+    st.video(video_path)
 
   with tab2:
      st.markdown("<h5 style='text-align: left;'>Buka PPT berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)

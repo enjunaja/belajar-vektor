@@ -9,7 +9,7 @@ def lkm_menu():
     st.markdown("<h3 style='text-align: center;'> Lembar Kerja Mahasiswa </h3>", unsafe_allow_html=True)
     st.write("")
     
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Tujuan", "Pengantar", "Kegiatan 1", "Kegiatan 2", "Kegiatan 3"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Tujuan", "Pengantar", "Kegiatan 1", "Kegiatan 2", "Kegiatan 3", "Kesimpulan"])
     with tab1: 
         st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h4>", unsafe_allow_html=True)
         st.write("Setelah melakukan Kegiatan Belajar diharapkan mahasiswa mampu:")
@@ -135,5 +135,31 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 7 ke kanan dan 4 ke atas relatif terhadap posisi (0,0)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (7,4)
         """)
-             
         
+     with tab6:
+        st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center;'>Kesimpulan</h4>", unsafe_allow_html=True)
+        st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
+
+        st.write('Berdasarkan kegiatan 1, 2, dan 3, dapat kita simpulkan bahwa:')
+        jawaban1 = st.text_input('(a,b)+(c,d)=')
+        if jawab1 != '':
+            if jawaban1 == "(a+c,b+d)" or jawaban1 == "(a+c, b+d)" or jawaban1 == "[a+c, b+d]" or jawaban1 == "[a+c,b+d]":
+                st.write("Kamu benar! (a,b)+(c,d)=(a+c, b+d)")
+            else:
+                st.write("Jawaban kamu masih salah, seharusnya (a,b)+(c,d)=(a+c, b+d)")
+        else: 
+            st.write("Tuliskan jawabanmu pada kotak")
+
+        jawaban2 = st.text_input('(a,b)-(c,d)=')
+        if jawaban2 != '':
+            if jawaban2 == "(a-c,b-d)" or jawaban2 == "(a-c, b-d)" or jawaban2 == "[a-c,b-d]" or jawaban2 == "[a-c, b-d]":
+                st.write("Kamu benar! (a,b)-(c,d)=(a-c, b-d)")
+            else:
+                st.write("Jawaban kamu masih salah, seharusnya (a,b)-(c,d)=(a-c, b-d)")
+        else: 
+            st.write("Tuliskan jawabanmu pada kotak")
+        
+         
+        
+             

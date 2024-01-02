@@ -2,24 +2,33 @@ def konsep_menu():
   import streamlit as st
   import numpy as np
 
-  st.write(" ")
-  st.markdown("<h3 style='text-align: center;'> Ruang Vektor </h3>", unsafe_allow_html=True)
-  st.markdown("<h6 style='text-align: center;'> 💻 Media Pembelajaran Ruang Vektor Berbasis DNR!</h3>", unsafe_allow_html=True)
-  st.write("")
-  st.markdown("<h5 style='text-align: leftr;'>Materi</h5>", unsafe_allow_html=True)
+  HOME = 'Home'
+  APPLICATION = 'ChickenAI'
 
-  tab1, tab2, tab3, tab4, tab5 = st.tabs(["Lingkup Materi", "Tupel", "Vektor", "Operasi Vektor", "Vektor Fitur"])
-  with tab1: 
-        st.markdown("<h5 style='text-align: left;'>Lingkup Materi</h5>", unsafe_allow_html=True)
-    
-  with tab2: 
-        st.markdown("<h5 style='text-align: left;'>Tupel</h5>", unsafe_allow_html=True)
+  tabs = [
+    HOME,
+    APPLICATION
+  ]
 
-  with tab3: 
-        st.markdown("<h5 style='text-align: left;'>Vektor</h5>", unsafe_allow_html=True)
+  option_data = [
+    {'icon': "🏠", 'label': HOME},
+    {'icon': "🤖", 'label': APPLICATION}
 
-  with tab4: 
-        st.markdown("<h5 style='text-align: left;'>Operasi Vektor</h5>", unsafe_allow_html=True)
+  ]
 
-  with tab5: 
-        st.markdown("<h5 style='text-align: left;'>Vektor Fitur</h5>", unsafe_allow_html=True)
+  over_theme = {'txc_inactive': 'black', 'menu_background': '#F5B7B1', 'txc_active': 'white', 'option_active': '#CD5C5C'}
+  font_fmt = {'font-class': 'h3', 'font-size': '50%'}
+
+  chosen_tab = hc.option_bar(
+    option_definition=option_data,
+    title='',
+    key='PrimaryOptionx',
+    override_theme=over_theme,
+    horizontal_orientation=True)
+
+  if chosen_tab == HOME:
+    st.text('Fixed width text')
+
+  elif chosen_tab == APPLICATION:
+    st.text('Fixed width text')
+

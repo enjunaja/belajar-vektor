@@ -9,16 +9,16 @@ from menu.menu_test import test_menu
 from menu_coba import coba_menu
 
 # Menggunakan HTML dan CSS kustom untuk mengatur gambar latar belakang
-page_bg_img = '''
-<style>
-.stApp {
-    background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/background.png?token=GHSAT0AAAAAACMH4J3IYHUJJ76EORWMNDQIZMTRKAQ");
-    background-size: cover;
-}
-</style>
-'''
+# page_bg_img = '''
+# <style>
+# .stApp {
+    # background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/background.png?token=GHSAT0AAAAAACMH4J3IYHUJJ76EORWMNDQIZMTRKAQ");
+    # background-size: cover;
+# }
+# </style>
+# '''
 # Menampilkan HTML
-st.markdown(page_bg_img, unsafe_allow_html=True)
+# st.markdown(page_bg_img, unsafe_allow_html=True)
 
 with st.sidebar:
     st.title("Mari Belajar!")

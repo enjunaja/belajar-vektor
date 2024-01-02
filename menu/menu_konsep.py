@@ -22,7 +22,7 @@ def konsep_menu():
     st.video(video_path)
 
   with tab2:
-    st.markdown("<h5 style='text-align: left;'>Buka PPT berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: left;'>Tonton video berikut untuk belajar tentang Vektor</h4>", unsafe_allow_html=True)
     # Path ke file video lokal sebagai contoh
     video_path = "https://youtu.be/4Hx8_80jTiY"
 

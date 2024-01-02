@@ -14,9 +14,9 @@ def konsep_menu():
   tab1, tab2, = st.tabs(["Tuple", "Vektor"])
 
   with tab1:
-     st.markdown("<h5 style='text-align: left;'>Tonton video berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: left;'>Tonton video berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
     # Path ke file video lokal sebagai contoh
-    video_path = "https://drive.google.com/file/d/1fMdIbRU-sw2Vc5JVM8mdZ-M928bUXME2/view?usp=drive_link"
+    video_path = "https://drive.google.com/uc?id=18mXALgEm1plx1gVve7TOkHnaA_zNa5Vh"
 
     # Menampilkan video dari file lokal
     st.video(video_path)

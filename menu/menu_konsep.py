@@ -2,10 +2,7 @@ def konsep_menu():
   import streamlit as st
   import numpy as np
 
-  tabs = [
-    HOME,
-    APPLICATION
-  ]
+  tabs = [HOME, APPLICATION  ]
 
   option_data = [
     {'icon': "🏠", 'label': HOME},

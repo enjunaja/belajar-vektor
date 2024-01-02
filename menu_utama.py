@@ -22,7 +22,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Pilihan menu dalam sidebar
 with st.sidebar:
-    st.title("Selamat Datang")
+    st.title("Media Pembelajaran Ruang Vektor")
     st.markdown(
         "Pilih menu"
         "Pilih menu"

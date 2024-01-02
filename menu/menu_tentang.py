@@ -3,7 +3,7 @@
 import streamlit as st
 
 def tentang_menu():
-    st.markdown("<h2 style='text-align: center;'> 💻 Media Pembelajaran Ruang Vektor Berbasis</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'> 💻 Media Pembelajaran Ruang Vektor</h2>", unsafe_allow_html=True)
     
     st.write(" ")
     st.markdown("<h4 style='text-align: left;'>Tentang Pengembang Website</h4>", unsafe_allow_html=True)

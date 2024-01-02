@@ -143,7 +143,7 @@ def lkm_menu():
 
         st.write('Berdasarkan kegiatan 1, 2, dan 3, dapat kita simpulkan bahwa:')
         jawaban1 = st.text_input('(a,b)+(c,d)=')
-        if jawab1 != '':
+        if jawaban1 != '':
             if jawaban1 == "(a+c,b+d)" or jawaban1 == "(a+c, b+d)" or jawaban1 == "[a+c, b+d]" or jawaban1 == "[a+c,b+d]":
                 st.write("Kamu benar! (a,b)+(c,d)=(a+c, b+d)")
             else:

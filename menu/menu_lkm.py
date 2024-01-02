@@ -25,7 +25,6 @@ def lkm_menu():
         st.write(" ")
     
         st.markdown("<h5 style='text-align: left;'>Perhatikan gambar berikut!</h4>", unsafe_allow_html=True)
-        #st.write("Perhatikan gambar berikut!")
         url_github1 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar1.png?raw=true"
         st.image(url_github1, caption='Posisi bola pada Koordinat Cartesius (Takahashi, S. & Inoue, I.,  2008)')
         st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf relatif terhadap titik awal bola?")
@@ -50,25 +49,9 @@ def lkm_menu():
                     st.write("Jawaban kamu masih salah, seharusnya posisi objek tersebut adalah (a,b). Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = a dan pada sumbu-y (garis vertikal) dengan koordinat y = b, dapat kita notasikan dengan menggunakan tuple sebagai (a, b).")
             else:
                 st.write("Tuliskan jawabanmu pada kotak")
-            lanjut = st.button("Lanjutkan ke Kegiatan 2")
-    
-        
-        #show_next_paragraph = st.button("Berikutnya")
-        #if show_next_paragraph:
-            #st.write("Terdapat tiga orang pemain, yang memukul bola sehingga menghasilkan perpindahan posisi bola sebagaimana terlihat pada gambar-gambar berikut.")
-             
-            #pemain1, pemain2, pemain3 = st.tabs(["Pemain 1", "Pemain 2", "Pemain 3"])
-            #with pemain1:
-               #st.header("Pemain 1")
-               #url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar2.png?raw=true"
-               #st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')
             
-            #with pemain2:
-               #st.header("Pemain 2")
-               #url_github3 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar3.png?raw=true"
-               #st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
-                          
-            
+           
+                  
     with tab3:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Kegiatan 1</h4>", unsafe_allow_html=True)

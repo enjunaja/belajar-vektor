@@ -63,7 +63,7 @@ def lkm_menu():
         st.button('(3,1)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('3 ke kanan dan 1 ke atas relatif terhadap posisi (0,0)')
-        st.write('Perpindahan bola yang donyatakan dalam bentuk (ke kanan, ke atas)')
+        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
         st.button('(3,1)')
 
         st.write('')
@@ -72,7 +72,7 @@ def lkm_menu():
         st.button('(4,3)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('1 ke kanan dan 2 ke atas relatif terhadap posisi (3,1)')
-        st.write('Perpindahan bola yang donyatakan dalam bentuk (ke kanan, ke atas)')
+        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
         st.button('(1,2)')
 
         st.write('')
@@ -81,7 +81,7 @@ def lkm_menu():
         st.button('(7,4)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('3 ke kanan dan 1 ke atas relatif terhadap posisi (4,3)')
-        st.write('Perpindahan bola yang donyatakan dalam bentuk (ke kanan, ke atas)')
+        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
         st.button('(3,1)')
     
     with tab4:
@@ -103,7 +103,7 @@ def lkm_menu():
         st.button('(10,10)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('10 ke kanan dan 10 ke atas relatif terhadap posisi (0,0)')
-        st.write('Perpindahan bola yang donyatakan dalam bentuk (ke kanan, ke atas)')
+        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
         st.button('(10,10)')
 
         st.write('')
@@ -112,7 +112,7 @@ def lkm_menu():
         st.button('(7,4)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('3 ke kiri dan 6 ke bawah relatif terhadap posisi (10,10)')
-        st.write('Perpindahan bola yang donyatakan dalam bentuk (ke kanan, ke atas)')
+        st.write("Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas)")
         st.button('(-3,-6)')
         
         
@@ -135,6 +135,6 @@ def lkm_menu():
         st.button('(7,4)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('7 ke kanan dan 4 ke atas relatif terhadap posisi (0,0)')
-        st.write('Perpindahan bola yang donyatakan dalam bentuk (ke kanan, ke atas)')
+        st.write("Perpindahan bola yang dionyatakan dalam bentuk (ke kanan, ke atas)")
         st.button('(7,4)')
         

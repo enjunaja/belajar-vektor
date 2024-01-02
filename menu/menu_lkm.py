@@ -58,7 +58,13 @@ def lkm_menu():
         st.write('')
         st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 1</h5>", unsafe_allow_html=True)
         st.write('')
+        
         st.markdown("<h6 style='text-align: left;'>Pukulan ke-1</h6>", unsafe_allow_html=True)
+        st.markdown("""
+        - Posisi bola pukulan ke-1: (3,1)
+        - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kanan dan 1 ke atas relatif terhadap posisi (0,0)
+        - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (3, 1)
+        """)
         st.button('Posisi bola pukulan ke-1: (3,1)')
         st.write('Posisi bola relatif terhadap posisi terakhirnya')
         st.button('3 ke kanan dan 1 ke atas relatif terhadap posisi (0,0)')

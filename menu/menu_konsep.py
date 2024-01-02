@@ -22,6 +22,9 @@ def konsep_menu():
     st.video(video_path)
 
   with tab2:
-     st.markdown("<h5 style='text-align: left;'>Buka PPT berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: left;'>Buka PPT berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
+    drive_file_url = "https://drive.google.com/uc?id=1Z5qoSXDVDPewkL5dsrCKe1TnV0cNWbYS"
+    # Menampilkan tautan ke file
+    st.markdown(f"[Lihat Presentasi]({drive_file_url})")
   
  

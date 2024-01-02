@@ -2,8 +2,8 @@ def konsep_menu():
   import streamlit as st
   import numpy as np
 
-  st.markdown("<h3 style='text-align: center;'> Materi </h3>", unsafe_allow_html=True)
-  st.markdown("<h6 style='text-align: center;'> 💻 Vektor sebagai Representasi Data</h3>", unsafe_allow_html=True)
+
+  st.markdown("<h2 style='text-align: center;'> 💻 Vektor sebagai Representasi Data</h2>", unsafe_allow_html=True)
   st.write("")
 
   tab1, tab2, = st.tabs(["Tuple", "Vektor"])

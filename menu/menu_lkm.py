@@ -41,7 +41,7 @@ def lkm_menu():
         show_next_paragraph = st.button("Berikutnya")
         if show_next_paragraph:
             st.write("Secara umum, Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = a dan pada sumbu-y (garis vertikal) dengan koordinat y = b, dapat kita notasikan dengan menggunakan tuple sebagai (b, b).")
-            next = st.button("Lanjutkan pada Kegiatan 2")
+            next = st.button("Lanjutkan pada Kegiatan 1")
             
            
                   

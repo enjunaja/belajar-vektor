@@ -2,11 +2,12 @@ def konsep_menu():
   import streamlit as st
   import numpy as np
 
-  tabs = [HOME, APPLICATION  ]
+  tab1, tab2, tab3 = st.tabs(["Tujuan", "Kegiatan 1", "Kegiatan 2"])
 
   option_data = [
-    {'icon': "🏠", 'label': HOME},
-    {'icon': "🤖", 'label': APPLICATION}
+    {'icon': "🏠", 'label': Tujuan},
+    {'icon': "🤖", 'label': Kegiatan 1}
+    {'icon': "🤖", 'label': Kegiatan 2}
 
   ]
 
@@ -20,9 +21,12 @@ def konsep_menu():
     override_theme=over_theme,
     horizontal_orientation=True)
 
-  if chosen_tab == HOME:
-    st.text('Fixed width text')
+  with tab1: 
+        st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h4>", unsafe_allow_html=True)
 
-  elif chosen_tab == APPLICATION:
-    st.text('Fixed width text')
+  with tab2: 
+        st.markdown("<h5 style='text-align: left;'>Kegiatan1</h4>", unsafe_allow_html=True)
+  
+  with tab3: 
+        st.markdown("<h5 style='text-align: left;'>Kegiatan 2</h4>", unsafe_allow_html=True)
 

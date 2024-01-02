@@ -64,7 +64,7 @@ def lkm_menu():
         url_github2 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar2.png?raw=true"
         st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')
 
- with tab4:
+     with tab4:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Kegiatan 2</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
@@ -73,7 +73,7 @@ def lkm_menu():
         url_github3 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar3.png?raw=true"
         st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
 
- with tab5:
+     with tab5:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Kegiatan 3</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)

@@ -14,9 +14,9 @@ def konsep_menu():
   tab1, tab2, = st.tabs(["Tuple", "Vektor"])
 
   with tab1:
-     st.markdown("<h5 style='text-align: left;'>Tuple</h4>", unsafe_allow_html=True)
+     st.markdown("<h5 style='text-align: left;'>Tonton video berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
 
   with tab2:
-     st.markdown("<h5 style='text-align: left;'>Vektor</h4>", unsafe_allow_html=True)
+     st.markdown("<h5 style='text-align: left;'>Buka PPT berikut untuk belajar tentang Tuple</h4>", unsafe_allow_html=True)
   
  

@@ -12,7 +12,7 @@ from menu_coba import coba_menu
 page_bg_img = '''
 <style>
 .stApp {
-    background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/background.png");
+    background-image: url("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/background.png?token=GHSAT0AAAAAACMH4J3IYHUJJ76EORWMNDQIZMTRKAQ");
     background-size: cover;
 }
 </style>
@@ -23,7 +23,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Pilihan menu dalam sidebar
 with st.sidebar:
     st.title("Mari Belajar!")
-    st.sidebar.image("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/Webinar-pana.png?token=GHSAT0AAAAAACMH4J3JRXEHZLA7ZX6LRG3MZMTRFOQ",width=500)
+    st.sidebar.image("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/Webinar-pana.png?token=GHSAT0AAAAAACMH4J3JRXEHZLA7ZX6LRG3MZMTRFOQ",width=100)
 
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Konsep Materi", "Lembar Kerja", "Test", "Coba Program"])
 # Tampilkan konten sesuai dengan pilihan menu

@@ -21,6 +21,12 @@ page_bg_img = '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Pilihan menu dalam sidebar
+with st.sidebar:
+    st.title("Selamat Datang")
+    st.markdown(
+        "Pilih menu"
+        "Pilih menu"
+    )
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Konsep Materi", "Lembar Kerja", "Test", "Coba Program"])
 
 # Tampilkan konten sesuai dengan pilihan menu

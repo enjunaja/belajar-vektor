@@ -44,7 +44,7 @@ def lkm_menu():
             st.write("Secara umum, bagaimana kita dapat menyatakan posisi suatu objek pada koordinat kartesius dengan koordinat x = a dan koordinat y = b yang relatif terhadap posisi awal (0, 0)?")
             jawab2 = st.text_input('Jawab:')
                 if jawab2 != '':
-                    if jawab2 == "(a,b)" or jawab1 == "(a, b)" or jawab1 == "[a,b]" or jawab1 == "[a, b]":
+                    if jawab2 == "(a,b)" or jawab2 == "(a, b)" or jawab2 == "[a,b]" or jawab2 == "[a, b]":
                         st.write("Kamu benar! Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = a dan pada sumbu-y (garis vertikal) dengan koordinat y = b, dapat kita notasikan dengan menggunakan tuple sebagai (a, b).")
                     else:
                         st.write("Jawaban kamu masih salah, seharusnya posisi objek tersebut adalah (a,b). Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = a dan pada sumbu-y (garis vertikal) dengan koordinat y = b, dapat kita notasikan dengan menggunakan tuple sebagai (a, b).")

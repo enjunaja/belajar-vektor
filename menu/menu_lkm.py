@@ -57,30 +57,36 @@ def lkm_menu():
         st.image(url_github2, caption='Perpindahan bola berdasarkan pukulan Pemain 1 (Takahashi, S. & Inoue, I.,  2008)')
         st.write('')
         st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 1</h5>", unsafe_allow_html=True)
+        st.write('')
+        st.markdown("<h6 style='text-align: left;'>Pukulan ke-1</h6>", unsafe_allow_html=True)
+        st.write('Posisi Bola')
+        st.button('(3,4)')
     
     with tab4:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Kegiatan 2</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         
-        st.write('Untuk memindahkan bola golf dari titik (0, 0) ke titik (7,4), seorang pemain (Pemain 2) melakukan tiga pukulan seperti pada gambar berikut.')
+        st.write('Untuk memindahkan bola golf dari titik (0, 0) ke titik (7,4), seorang pemain (Pemain 2) melakukan dua pukulan seperti pada gambar berikut.')
         
         st.markdown("<h5 style='text-align: left;'>Pemain 2</h4>", unsafe_allow_html=True)
         url_github3 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar3.png?raw=true"
         st.image(url_github3, caption='Perpindahan bola berdasarkan pukulan Pemain 2 (Takahashi, S. & Inoue, I.,  2008)')
         st.write('')
-        st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 1</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 2</h5>", unsafe_allow_html=True)
+        st.write('')
+        
         
     with tab5:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Kegiatan 3</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
 
-        st.write('Untuk memindahkan bola golf dari titik (0, 0) ke titik (7,4), seorang pemain (Pemain 3) melakukan tiga pukulan seperti pada gambar berikut.')
+        st.write('Untuk memindahkan bola golf dari titik (0, 0) ke titik (7,4), seorang pemain (Pemain 3) melakukan satu pukulan seperti pada gambar berikut.')
         
         st.markdown("<h5 style='text-align: left;'>Pemain 3</h4>", unsafe_allow_html=True)
         url_github4 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar4.png?raw=true"
         st.image(url_github4, caption='Perpindahan bola berdasarkan pukulan Pemain 3 (Takahashi, S. & Inoue, I.,  2008)')
         st.write('')
-        st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 1</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: center;'>Data Pukulan Bola Pemain 3</h5>", unsafe_allow_html=True)
         

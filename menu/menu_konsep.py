@@ -6,8 +6,8 @@ def konsep_menu():
 
   option_data = [
     {'icon': "🏠", 'label': Tujuan},
-    {'icon': "🤖", 'label': Kegiatan 1}
-    {'icon': "🤖", 'label': Kegiatan 2}
+    {'icon': "🤖", 'label': Kegiatan1}
+    {'icon': "🤖", 'label': Kegiatan2}
 
   ]
 

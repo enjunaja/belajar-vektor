@@ -2,9 +2,6 @@ def konsep_menu():
   import streamlit as st
   import numpy as np
 
-  HOME = 'Home'
-  APPLICATION = 'ChickenAI'
-
   tabs = [
     HOME,
     APPLICATION

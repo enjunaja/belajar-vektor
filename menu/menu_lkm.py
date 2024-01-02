@@ -33,9 +33,11 @@ def lkm_menu():
         jawab1 = st.text_input('Jawab:')
         if jawab1 != '':
             if jawab1 == "(7,4)" or jawab1 == "(7, 4)" or jawab1 == "[7,4]" or jawab1 == "[7, 4]":
-                st.write("Kamu benar!")
+                st.write("Kamu benar! Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = 7 dan pada sumbu-y (garis vertikal) dengan koordinat y = 4, dapat kita notasikan dengan menggunakan tuple sebagai (7, 4).
+")
             else:
-                st.write("Jawaban kamu masih salah, seharusnya posisi lubang bola terhadap titik (0, 0) adalah (7,4).")
+                st.write("Jawaban kamu masih salah, seharusnya posisi lubang bola terhadap titik (0, 0) adalah (7,4). Suatu objek yang terletak pada sumbu-x (garis horizontal) dengan koordinat x = 7 dan pada sumbu-y (garis vertikal) dengan koordinat y = 4, dapat kita notasikan dengan menggunakan tuple sebagai (7, 4).
+")
         else: 
             st.write("Tuliskan jawabanmu pada kotak")
         

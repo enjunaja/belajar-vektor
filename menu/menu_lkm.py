@@ -4,29 +4,29 @@ import streamlit as st
 from PIL import Image
 
 def lkm_menu():
+    
+    st.markdown("<h2 style='text-align: center;'> 💻 Vektor sebagai Representasi Data</h2>", unsafe_allow_html=True)
     st.markdown("<h3 style='text-align: center;'> Lembar Kerja Mahasiswa </h3>", unsafe_allow_html=True)
-    st.markdown("<h6 style='text-align: center;'> 💻 Vektor sebagai Representasi Data</h3>", unsafe_allow_html=True)
     st.write("")
 
-    tab1, tab2, tab3 = st.tabs(["Tujuan", "Kegiatan 1", "Kegiatan 2"])
+    tab1, tab2, tab3 = st.tabs(["Tujuan", "Pengantar", "Kegiatan 1"])
     with tab1: 
         st.markdown("<h5 style='text-align: left;'>Tujuan Pembelajaran</h4>", unsafe_allow_html=True)
-        st.write("Setelah melakukan Kegiatan Belajar 1 dan Kegiatan Belajar 2 diharapakan mahasiswa mampu:")
+        st.write("Setelah melakukan Kegiatan Belajar diharapkan mahasiswa mampu:")
         st.write("a. Merepresentasikan data dengan menggunakan vektor;")
         st.write("b. Memformulasikan penjumlahan dan perkalian pada vektor;")
         st.write("c. Menentukan vektor nol (identitas penjumlahan);")
-        st.write("d. Menentukan skalar satuan (identitas perkalian);")
-        st.write("e. Mengevaluasi kesamaan dua vektor.")
         st.write(" ")
 
     with tab2:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
         st.markdown("<h4 style='text-align: center;'>Merepresentasikan Posisi dan Perpindahan sebagai Vektor</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
-        
+        st.write(" ")
+
         st.markdown("<h5 style='text-align: left;'>Kegiatan Pembelajaran</h4>", unsafe_allow_html=True)
         st.write("Perhatikan gambar berikut!")
-        url_github1 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar1.png?raw=true"
+        url_github1 = "https://github.com/enjunaja/belajar-vektor/blob/main/gambar/gambar1.png?raw=true"
         st.image(url_github1, caption='Posisi bola pada Koordinat Cartesius (Takahashi, S. & Inoue, I.,  2008)')
         st.write("Seorang atlet golf akan memukul bola yang berada pada posisi (0,0) seperti gambar diatas dengan tujuan adalah posisi lubang bola golf yang ditandai bendera. Bagaimana kita dapat menyatakan posisi lubang bola golf relatif terhadap titik awal bola?")
         
@@ -62,7 +62,7 @@ def lkm_menu():
             
     with tab3:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
-        st.markdown("<h4 style='text-align: center;'>Merepresentasikan Warna sebagai Vektor</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center;'>Kegiatan 1</h4>", unsafe_allow_html=True)
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
 
         st.markdown("<h5 style='text-align: left;'>Kegiatan Pembelajaran</h4>", unsafe_allow_html=True)

@@ -18,7 +18,7 @@ def beranda_menu():
 
     # Menampilkan gambar dengan menggunakan style
     st.markdown(
-        f'<div style="{centered_image_style}"><img src="{image_url_story_set}" alt="Gambar"></div>',
+        f'<div style="{centered_image_style}"><img src="{image_url_story_set}" alt="Gambar" width="500"></div>',
         unsafe_allow_html=True
     )
 

@@ -12,7 +12,7 @@ def beranda_menu():
     # Mendefinisikan CSS untuk menengahkan gambar
     centered_image_style = (
         "display: flex; justify-content: center; align-items: center; "
-        "width: 600;"  # Sesuaikan tinggi gambar sesuai kebutuhan Anda
+        "width: 200;"  # Sesuaikan tinggi gambar sesuai kebutuhan Anda
     )
 
     # Menampilkan gambar dengan menggunakan style

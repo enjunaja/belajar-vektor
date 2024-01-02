@@ -23,7 +23,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Pilihan menu dalam sidebar
 with st.sidebar:
     st.title("Mari Belajar!")
-    st.sidebar.image("https://https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/Webinar-pana.png",width=500)
+    st.sidebar.image("https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/Webinar-pana.png",width=500)
 
 menu = st.sidebar.selectbox("Menu", ["Beranda", "Tentang", "Konsep Materi", "Lembar Kerja", "Test", "Coba Program"])
 # Tampilkan konten sesuai dengan pilihan menu

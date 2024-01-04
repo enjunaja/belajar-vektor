@@ -7,7 +7,7 @@ def test_menu():
     st.write("")
     st.markdown("<h6 style='text-align: left;'>Mari kita cek pemahamanmu tentang Ruang Vektor!</h6>", unsafe_allow_html=True)
 
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Test 1", "Test 2", "Test 3", "Test 4", "Test 5"])
+    tab1, tab2, tab3 = st.tabs(["Test 1", "Test 2", "Test 3"])
     
     with tab1: 
         st.markdown("<h5 style='text-align: left;'>Latihan 1</h5>", unsafe_allow_html=True)
@@ -45,10 +45,5 @@ def test_menu():
         """)
         st.text_input('Tuliskan pendapatmu untuk latihan 3 pada box berikut!')
     
-    with tab4: 
-        st.markdown("<h5 style='text-align: left;'>Test 4</h5>", unsafe_allow_html=True)
-    
-    with tab5: 
-        st.markdown("<h5 style='text-align: left;'>Test 5</h5>", unsafe_allow_html=True)
-
+   
     

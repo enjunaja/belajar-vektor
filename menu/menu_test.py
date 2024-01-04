@@ -14,7 +14,7 @@ def test_menu():
         st.write("")
         st.write("Perhatikan gambar berikut. Pada gambar terlihat bagaimana suatu vektor dapat digunakan untuk merepresentasikan warna.")
         url_warna = "https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/warna.png"
-        st.image(url_warna, caption='Merepresentasikan Warna dengan Vektor', width=50)
+        st.image(url_warna, caption='Merepresentasikan Warna dengan Vektor')
         st.write("")
         st.write("Apa yang dapat kamu ceritakan tentang gambar tersebut?")
         st.text_input('Tuliskan pendapatmu!')

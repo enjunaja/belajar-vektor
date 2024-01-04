@@ -65,7 +65,7 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kanan dan 1 ke atas relatif terhadap posisi (0,0)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (3, 1)
         """)
-        st.text_input('Perpindahan bola yang dinyatakan (3,1) diperoleh dari:')
+        st.text_input('Perpindahan bola ke-1 yang dinyatakan (3,1) diperoleh dari:')
 
         st.write('')
         st.markdown("<h5 style='text-align: left;'>Pukulan ke-2</h5>", unsafe_allow_html=True)
@@ -74,7 +74,7 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 1 ke kanan dan 2 ke atas relatif terhadap posisi (3,1)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (1, 2)
         """)
-        st.text_input('Perpindahan bola yang dinyatakan (1,2) diperoleh dari:')
+        st.text_input('Perpindahan bola ke-2 yang dinyatakan (1,2) diperoleh dari:')
         
         st.write('')
         st.markdown("<h5 style='text-align: left;'>Pukulan ke-3</h5>", unsafe_allow_html=True)
@@ -83,8 +83,8 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kanan dan 1 ke atas relatif terhadap posisi (4,3)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (3, 1)
         """)
-        st.text_input('Perpindahan bola yang dinyatakan (3,1) diperoleh dari:')
-
+        st.text_input('Perpindahan ke-3 bola yang dinyatakan (3,1) diperoleh dari:')
+        
         st.write('')
         st.markdown("<h5 style='text-align: left;'>Representasi</h5>", unsafe_allow_html=True)
         st.write('Berdasarkan penjelasan tentang bagaimana perpindahan bola dari posisi awal ke posisi akhir, posisi akhir bola diperoleh dengan menjumlahkan 3 perpindahan, yaitu:')

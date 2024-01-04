@@ -24,7 +24,7 @@ with st.sidebar:
     st.title("Mari Belajar!")
 
 # Pilihan menu dalam sidebar
-menu = st.sidebar.selectbox("Menu", ["Beranda", "Pengembang", "Konsep Materi", "Lembar Kerja", "Test", "Coba Program"])
+menu = st.sidebar.selectbox("Menu", ["Beranda", "Pengembang", "Konsep Materi", "Lembar Kerja", "Test"])
 # Tampilkan konten sesuai dengan pilihan menu
 if menu == "Beranda":
     beranda_menu()
@@ -41,6 +41,6 @@ elif menu == "Lembar Kerja":
 elif menu == "Test":
     test_menu()
 
-elif menu == "Coba Program":
-    coba_menu()
+# elif menu == "Coba Program":
+#     coba_menu()
 

@@ -19,8 +19,7 @@ def test_menu():
         st.write("Apa yang dapat kamu ceritakan tentang gambar tersebut?")
         st.text_input('Tuliskan pendapatmu untuk latihan 1 pada box berikut!')
         
-    
-    with tab2: 
+    with tab2:
         st.markdown("<h5 style='text-align: left;'>Latihan 2</h5>", unsafe_allow_html=True)
         st.write("")
         st.write("Perhatikan gambar grayscale berukuran 5x5 pixel berikut.")

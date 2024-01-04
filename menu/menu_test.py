@@ -28,7 +28,7 @@ def test_menu():
         st.write("")
         st.write("Bagaimanakah kamu merepresentasikan gambar tersebut dalam suatu vektor? Jelaskan?")
         st.write("Tuliskanlah notasi yang tepat untuk menyatakan gambar grayscale berukuran 5x5 pixel dalam bentuk vektor secara umum"
-        st.text_input('Tuliskan pendapatmu untuk latihan 2 pada box berikut!')
+        #st.text_input('Tuliskan pendapatmu untuk latihan 2 pada box berikut!')
     
     with tab3: 
         st.markdown("<h5 style='text-align: left;'>Test 3</h5>", unsafe_allow_html=True)

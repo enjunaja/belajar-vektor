@@ -17,19 +17,19 @@ def test_menu():
         st.image(url_warna, caption='Merepresentasikan Warna dengan Vektor', width=300)
         st.write("")
         st.write("Apa yang dapat kamu ceritakan tentang gambar tersebut?")
-        st.text_input('Tuliskan pendapatmu!')
+        st.text_input('Tuliskan pendapatmu untuk latihan 1 pada box berikut!')
         
     
     with tab2: 
         st.markdown("<h5 style='text-align: left;'>Latihan 2</h5>", unsafe_allow_html=True)
         st.write("")
         st.write("Perhatikan gambar grayscale berukuran 5x5 pixel berikut.")
-        url_warna = "https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/5x5image.png"
-        st.image(url_warna, caption='Merepresentasikan Gambardengan Vektor', width=300)
+        url_gs = "https://raw.githubusercontent.com/enjunaja/belajar-vektor/main/gambar/5x5image.png"
+        st.image(url_gs, caption='Merepresentasikan Gambar dengan Vektor', width=300)
         st.write("")
         st.write("Bagaimanakah kamu merepresentasikan gambar tersebut dalam suatu vektor? Jelaskan?")
         st.write("Tuliskanlah notasi yang tepat untuk menyatakan gambar grayscale berukuran 5x5 pixel dalam bentuk vektor secara umum"
-        st.text_input('Tuliskan pendapatmu!')
+        st.text_input('Tuliskan pendapatmu untuk latihan 2 pada box berikut!')
     
     with tab3: 
         st.markdown("<h5 style='text-align: left;'>Test 3</h5>", unsafe_allow_html=True)

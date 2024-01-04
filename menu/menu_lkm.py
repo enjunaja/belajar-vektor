@@ -111,6 +111,7 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 10 ke kanan dan 10 ke atas relatif terhadap posisi (0,0)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (10, 10)
         """)
+        st.text_input('Perpindahan bola ke-1 yang dinyatakan (10,10) diperoleh dari:')
         
         st.write('')
         st.markdown("<h5 style='text-align: left;'>Pukulan ke-2</h5>", unsafe_allow_html=True)
@@ -119,6 +120,12 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 3 ke kiri dan 6 ke bawah relatif terhadap posisi (10,10)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (-3,-6)
         """)
+        st.text_input('Perpindahan bola ke-2 yang dinyatakan (-3,-6) diperoleh dari:')
+
+        st.write('')
+        st.markdown("<h5 style='text-align: left;'>Representasi</h5>", unsafe_allow_html=True)
+        st.write('Berdasarkan penjelasan tentang bagaimana perpindahan bola dari posisi awal ke posisi akhir, posisi akhir bola diperoleh dengan menjumlahkan 2 perpindahan, yaitu:')
+        st.text_input('Tuliskan pendapatmu pada box berikut ini!')
              
         
     with tab5:
@@ -141,6 +148,7 @@ def lkm_menu():
         - Posisi bola relatif terhadap posisi terakhirnya: 7 ke kanan dan 4 ke atas relatif terhadap posisi (0,0)
         - Perpindahan bola yang dinyatakan dalam bentuk (ke kanan, ke atas): (7,4)
         """)
+        st.text_input('Perpindahan bola yang dinyatakan (7,4) diperoleh dari:')
         
     with tab6:
         st.markdown("<h6 style='text-align: center;'>==================================================================================</h4>", unsafe_allow_html=True)
